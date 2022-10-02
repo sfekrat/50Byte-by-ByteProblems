@@ -8,7 +8,7 @@ public class KnapsackProblem {
 		}
 		// Table that is being used for population
 		// size and number of items are 1 more than the actual arrays.
-		// We have to (0,0) pair as well.
+		// We have to include (0,0) pair as well.
 		int[][] table = new int[numOfItems][size];
 		ArrayList<Integer> res = new ArrayList<>(); // returns weights of the items.
 		int[] resOfW = new int[numOfItems -1]; // returns what items in the list we have selected.
